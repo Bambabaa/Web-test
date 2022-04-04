@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+             Psudo Class Selectors
+        </title>
+        <style>
+            h1{
+                color: green;
+                text-align: center;
+            }
+            header li {
+                list-style: none;
+                color: white;
+            }
+            a:link, a:visited {
+                text-decoration: none;
+                background-color: rgb(104, 146, 104);
+                border: 1px solid black;
+                color: white;
+                display:block;
+                width: 150px;
+                text-align: center;
+                margin-bottom: 3px;
+                font-size: 18px;                
+            }
+            a:hover, a:active{
+                background-color: rgb(39, 94, 39);
+                color: rgb(104, 146, 104);
+            }
+            section div:nth-child(odd){
+                background-color: rgb(104, 146, 104);
+            }
+            section div:nth-child(even){
+                background-color: rgb(134, 197, 134);
+            }
+            section div:hover{
+                background-color: rgb(245, 223, 195);
+                cursor: pointer;
+                color: black;
+            }
+
+            body {
+                background-color: rgb(245, 223, 195);
+                margin-right: 1.5cm;
+                margin-left: 1.5cm;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            PSUDO SELECTOR
+        </h1>
+        <header>
+            <ul>
+                <li><a href="index.html" title="Home Page">HOME</a></li>
+                <li><a href="links.html" title="Image Link">IMAGE</a></li>
+                <li><a href="cssSelector.html" title="CSS Selector">SELECTOR</a></li>
+            </ul>
+        </header>
+
+        <section>
+            <div>LIST 1</div>
+            <div>LIST 2</div>
+            <div>LIST 3</div>
+            <div>LIST 4</div>
+            <div>LIST 5</div>
+            <div>LIST 6</div>
+            <div>LIST 7</div>
+            <div>LIST 8</div>
+        </section>
+    </body>
+
+
+</html>
