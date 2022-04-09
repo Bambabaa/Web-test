@@ -51,6 +51,7 @@ h1 {
 .flow > * + *{
     margin-top: var(--flow-space, var(--spacer));
 }
+
 body{
     font-family: var(--ff-primary);
     min-height: 100vh;
